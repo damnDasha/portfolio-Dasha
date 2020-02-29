@@ -32,18 +32,24 @@
   <body>
     <header>
       <div class="menu-social">
-        <a href="https://www.instagram.com/damnDasha"
+        <a href="https://www.instagram.com/damn.Dasha" target="_blank"
           ><i class="fab fa-instagram-square"></i
         ></a>
-        <a href="https://github.com/damndasha"
+        <a href="https://github.com/damndasha" target="_blank"
           ><i class="fab fa-github"></i>
         </a>
-        <a href="https://www.twitter.com/damnDasha"
+        <a href="https://www.twitter.com/damnDasha" target="_blank"
           ><i class="fab fa-twitter"></i>
         </a>
-        <a href="https://slack.com/app_redirect?app=UR1L3FE0M"
+        <a href="https://slack.com/app_redirect?app=UR1L3FE0M" target="_blank"
           ><i class="fab fa-slack"></i
         ></a>
+
+        <a
+          href="https://www.linkedin.com/in/dasha-akhten-0b727129/"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i>
+        </a>
       </div>
     </header>
     <!-- Main section start -->
@@ -60,8 +66,13 @@
     </div>
 
     <div class="site-content"></div>
-    <h2 id="contact-form">Contact</h2>
-    <form class="contact-form">
+    <h2 id="contact-form">Contact Me!</h2>
+    <form
+      class="contact-form"
+      action="mailto:dasha.akhten@gmail.com"
+      method="POST"
+      enctype="text/plain"
+    >
       <fieldset>
         <div class="row">
           <div class="col-lg-6">
@@ -81,10 +92,8 @@
         <div class="row">
           <div class="col-lg-18">
             <textarea placeholder="let me know what's up!"></textarea>
+            <input type="submit" value="send message" id="button" />
           </div>
-          <button class="site-btn">
-            send message
-          </button>
         </div>
       </fieldset>
     </form>
