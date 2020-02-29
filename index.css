@@ -35,7 +35,9 @@ h6 {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 16px;
+  padding: 50px;
+  font-weight: 0;
 }
 
 h2 {
@@ -44,6 +46,7 @@ h2 {
 
 h3 {
   font-size: 30px;
+  padding-bottom: 30px;
 }
 
 h4 {
@@ -76,16 +79,14 @@ p {
 #copyright {
   color: #8c5b49;
   text-align: right;
-  font-size: 10px;
+  font-size: 20px;
 }
 
-form {
+form.contact-form {
   text-align: center;
-  padding-left: 0px;
-  padding-right: 20px;
-  margin-top: 40px;
-  margin-left: 0px;
-  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 fieldset {
@@ -259,6 +260,25 @@ div.main-site-warp {
   color: #592614;
 }
 
+/*mobile*/
+@media only screen and (min-width: 320px) {
+  main {
+    display: flex;
+  }
+  body {
+    flex-direction: column;
+  }
+  h5 {
+    padding: 0;
+  }
+
+  form.contact-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 /*tablet*/
 
 @media only screen and (min-width: 768px) {
@@ -266,8 +286,13 @@ div.main-site-warp {
     display: flex;
     flex-direction: row;
   }
-  .page-section {
+  div.page-section {
     align-items: center;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 0.5in;
+    margin-right: 0.5in;
   }
 }
 
@@ -278,6 +303,7 @@ div.main-site-warp {
     display: flex;
     flex-direction: column;
   }
+
   .contact-info {
     font-size: 30px;
   }
@@ -297,11 +323,13 @@ div.main-site-warp {
   }
   h2#contact-form {
     text-align: center;
+    padding-bottom: 50px;
   }
-  form {
+  form.contact-form {
+    display: flex;
+    flex-direction: column;
     padding: 0;
-    margin-left: 300px;
-    margin-right: 300px;
+    align-items: center;
     text-align: center;
   }
   input {
@@ -332,6 +360,8 @@ div.main-site-warp {
   p#fun-facts {
     text-align: center;
   }
+
+  /*
   p#first-project {
     margin-left: 400px;
     margin-right: 100px;
@@ -355,6 +385,13 @@ div.main-site-warp {
   h5#shop {
     margin-left: 600px;
   }
+
+  */
+  section.page-section {
+    display: flex;
+    flex-direction: row;
+  }
+
   h2#about-me {
     position: absolute;
     padding-top: 250px;
@@ -379,5 +416,11 @@ div.main-site-warp {
     text-align: center;
     width: 200px;
     height: 100px;
+  }
+
+  fieldset {
+    align-items: center;
+    padding: 0;
+    margin: 0;
   }
 }
