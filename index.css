@@ -11,6 +11,11 @@ body {
   margin-bottom: 50px;
 }
 
+h2#contact-form {
+  text-align: center;
+  padding: 50px;
+}
+
 a:link {
   color: #592614;
   text-decoration: none;
@@ -60,6 +65,13 @@ h5 {
 
 h6 {
   font-size: 16px;
+}
+section#contact-me {
+  border-style: ridge;
+  border-color: #d9ab9a;
+  border-width: 10px;
+  text-align: center;
+  padding-top: 50px;
 }
 
 p {
@@ -294,6 +306,15 @@ div.main-site-warp {
     margin-left: 0.5in;
     margin-right: 0.5in;
   }
+  section#contact-me {
+    border-style: ridge;
+    border-color: #d9ab9a;
+    border-width: 10px;
+    text-align: center;
+    margin: 50px;
+
+    padding: 50px;
+  }
 }
 
 /*desktop*/
@@ -302,6 +323,10 @@ div.main-site-warp {
   body {
     display: flex;
     flex-direction: column;
+  }
+  ul,
+  li {
+    padding-left: 60px;
   }
 
   .contact-info {
@@ -387,9 +412,20 @@ div.main-site-warp {
   }
 
   */
+
+  p#second-project,
+  p#first-project,
+  p#third-project {
+    width: 3.5in;
+  }
   section.page-section {
     display: flex;
     flex-direction: row;
+  }
+
+  img {
+    text-align: center;
+    padding: 0;
   }
 
   h2#about-me {
@@ -422,5 +458,13 @@ div.main-site-warp {
     align-items: center;
     padding: 0;
     margin: 0;
+  }
+  section#contact-me {
+    border-style: ridge;
+    border-color: #d9ab9a;
+    border-width: 10px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }
