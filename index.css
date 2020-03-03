@@ -370,20 +370,34 @@ div.main-site-warp {
     opacity: 0.5;
     position: relative;
   }
+  /*
+  div#About {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+*/
+  /*
+  p#one,
+  p#two,
+  p#three,
+  p#four {
+    width: 5in;
+    height: 2in;
+  }
 
   div#About {
     display: flex;
     flex-direction: row;
     align-items: center;
-    flex-basis: 30%;
   }
+*/
 
+  div#About {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
   p {
     margin: 50px;
-  }
-
-  p#fun-facts {
-    text-align: center;
   }
 
   /*
