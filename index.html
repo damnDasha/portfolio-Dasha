@@ -32,20 +32,18 @@
   <body>
     <header>
       <div class="menu-social">
-        <a href="https://www.instagram.com/damn.Dasha" target="_blank"
+        <a id='social'href="https://www.instagram.com/damn.Dasha" target="_blank"
           ><i class="fab fa-instagram-square"></i
         ></a>
-        <a href="https://github.com/damndasha" target="_blank"
+        <a id='social'href="https://github.com/damndasha" target="_blank"
           ><i class="fab fa-github"></i>
         </a>
-        <a href="https://www.twitter.com/damnDasha" target="_blank"
-          ><i class="fab fa-twitter"></i>
-        </a>
-        <a href="https://slack.com/app_redirect?app=UR1L3FE0M" target="_blank"
+       
+        <a id='social'href="https://slack.com/app_redirect?app=UR1L3FE0M" target="_blank"
           ><i class="fab fa-slack"></i
         ></a>
 
-        <a
+        <a id='social'
           href="https://www.linkedin.com/in/dasha-akhten-0b727129/"
           target="_blank"
           ><i class="fab fa-linkedin"></i>
@@ -57,10 +55,10 @@
       <div class="site-menu-warp">
         <!-- Main menu -->
         <ul class="site-menu">
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html" >About Me</a></li>
+          <li><a id='links'href="index.html" class="active">Home</a></li>
+          <li><a id='links'href="about.html" >About Me</a></li>
 
-          <li><a href="contact.html" >Contact</a></li>
+          <li><a id='links'href="contact.html" >Contact</a></li>
         </ul>
       </div>
     </div>
@@ -68,13 +66,13 @@
     <div class="site-content"></div>
     <!-- Left Side section -->
 
-    <h1>first portfolio ever!</h1>
+    <h1>welcome to my portfolio!</h1>
 
     <div class="about-info">
-      <h2>Hey! I'm Dasha</h2>
+      <h2>Hi! I'm Dasha</h2>
       <p>
         Also known as: Dasha from Russia, former fashion blogger, current
-        aspiring web developer. Student at Thinkful
+        web developer. Recent Thinkful graduate.
       </p>
     </div>
     <ul class="contact-info">
@@ -91,88 +89,92 @@
     <h3>Projects</h3>
     <section class="page-section">
       <div id="project">
-        <h4 id="fashion">Fashion Quiz</h4>
+        <h4 id="fashion">Foodversity</h4>
         <p id="first-project">
-          hey, did you guys know I like fashion? <br />
 
-          This project uses javaScript and jQuery to render the DOM according to
-          user input. Without adding any HTML, I was able to use only javaScript
-          to create this app. Event handlers register users' inputs, and the
-          render function displays the proper HTML!
-          <ul>Technologies used:</ul>
+          This project is a React app that allows the user to keep a food journal. Users can add days of the week, and enter food they eat in a calendar-style format. I created both the front end and back end for this app using PostgreSQL to store user input.
+          <ul>Technologies used:
           <li>HTML</li>
           <li>CSS</li>
           <li>javaScript</li>
-          <li>jQuery</li>
-          <br />
-          <br/>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Express</li>
+          <li>PostgreSQL</li>
+          </ul>
           <a
-            href="https://github.com/thinkful-ei-macaw/quiz-app-Dasha-Trina"
-            target="_blank"
-            >Quiz Repo</a
-          >
-          <a
-            href="https://thinkful-ei-macaw.github.io/quiz-app-Dasha-Trina/"
+            href="https://foodversity-client.now.sh/"
             target="_blank"
             ><img
-              src="images/IMG_0469-768x768.jpg"
-              alt="shoes and handbags photo"
+              src="images/Screen Shot 2020-04-23 at 12.01.16 PM.png"
+              alt="food journal main screen photo"
           /></a>
-          <br />
-          <br />Try it out and let me know what you scored!
+          <a
+            href="https://github.com/thinkful-ei-macaw/foodversity-client"
+            target="_blank"
+            >client side Repo</a>
         </p>
       </div>
 
       <div>
-        <h4 id="book">Bookmarks App</h4>
+        <h4 id="book">Learn Russian!</h4>
         <p id="second-project">
-          The bookmarks app allows users to save bookmarks from their favourite
-          sites.
-          <br />
-          Made with jQuery and javaScript, this app also stores data using APIs.
-          Once completed, the user will be able to view the bookmark
-          description, as well as delete what is no longer wanted.
-          <ul>Technologies used:</ul>
+          This app allows the user to learn Russian using the spaced repetition technique. Utilising a linked list algorithm, my colleague and I created this app using React and Node.js
+          
+          <ul>Technologies used:
           <li>HTML</li>
           <li>CSS</li>
           <li>javaScript</li>
-          <li>jQuery</li>
-          <li>APIs</li>
-          <li>Postman</li>
-          <br />
-          <img
-            src="images/bookmark.png"
-            alt="website that lets users add bookmarks"
-          />
-          <br />
-          <a
-            href="https://github.com/thinkful-ei-macaw/bookmarks-app-Dasha"
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Cypress testing</li>
+          <li>PostgreSQL</li>
+ </ul>
+       
+            <a
+            href="https://spacedrep.now.sh/"
             target="_blank"
-            >It is currently a work in progress, but follow along with my
-            changes to this repo</a
+            >
+          <img
+            src="images/Screen Shot 2020-06-19 at 11.01.20 AM.png"
+            alt="photo of russian nesting dolls"
+          /></a>
+            <a
+            href="https://github.com/thinkful-ei-macaw/spaced-rep-client-dasha-javori"
+            target="_blank"
+            >client side Repo</a
           >
         </p>
       </div>
 
       <div>
-        <h4 id="shop">Online shop</h4>
+        <h4 id="shop">OMNI q&a</h4>
         <p id="third-project">
-          In my former life, I also had an online store with my own designs
-          printed on coffee mugs. This was a great experience for me to learn
-          about consumer habits. I also took this opportunity to hone my SEO
-          skills, and use blogging and social media to attract more traffic. The
-          designs were all my own, created using Adobe Illustrator.<br />
-<ul>Technologies used:</ul>
+          Working with my team, we chose to create a question and answer app to help businesses increase productivity. This app is built with React and allows users to sign up and ask questions about topics pertaining to their workplace.
+          
+          <ul>Technologies used:
           <li>HTML</li>
           <li>CSS</li>
-          <li>Mailchimp</li>
-          <li>Shopify</li>
-          <br />
-          <br />
+          <li>javaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Cypress testing</li>
+          <li>PostgreSQL</li>
+ </ul>
+      
+            <a
+            href="https://omniqa.now.sh/"
+            target="_blank"
+            >
           <img
-            src="images/mockup_Donuts_Environment_11oz.jpg"
-            alt="coffee mug with bossbabe hashtag design, surrounded by donuts"
-          />
+            src="images/favicon_png.png"
+            alt="OMNI qa icon"
+          /></a>
+                  <a
+            href="https://github.com/thinkful-ei-macaw/omniqa-front-end"
+            target="_blank"
+            >client side Repo</a
+          >
         </p>
       </div>
     </section>
